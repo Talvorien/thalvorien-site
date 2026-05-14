@@ -1,7 +1,12 @@
 export default function Home() {
   return (
     <>
-      <main className="home">
+     <main
+  className="home"
+  style={{
+    backgroundImage: "url('/thalvorien-bg.png')",
+  }}
+>
         <div className="backgroundOverlay"></div>
 
         <header className="navbar">
