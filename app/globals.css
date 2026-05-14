@@ -16,10 +16,10 @@ body {
 .home {
   position: relative;
   min-height: 100vh;
-  background-image: url("/thalvorien-bg.png.png");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+  background-color: #0b0b0b;
   overflow: hidden;
 }
 
