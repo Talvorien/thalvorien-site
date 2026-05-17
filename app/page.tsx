@@ -36,8 +36,8 @@ export default function Home() {
       <section id="collection" className="section">
         <h2>Collection</h2>
         <p>
-          Textile Products · Printed Apparel · Home Textile · Gift Items ·
-          Lifestyle Accessories
+          Our product range brings together textiles, printed clothing, accessories
+    and carefully crafted canvas bags, developed for modern online retail.
         </p>
       </section>
 
