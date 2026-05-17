@@ -130,43 +130,6 @@ body {
 }
 
 /* Tablet */
-@media (max-width: 900px) {
-  .navbar {
-    width: calc(100% - 48px);
-    margin-top: 24px;
-    padding: 16px 18px;
-    flex-direction: column;
-    gap: 14px;
-    border-radius: 28px;
-  }
-
-  .brand {
-    font-size: 16px;
-    letter-spacing: 4px;
-  }
-
-  .navLinks {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .navLinks a {
-    font-size: 12px;
-    padding: 9px 14px;
-  }
-
-  .heroMinimal {
-    padding: 0 32px 52px;
-    align-items: center;
-    text-align: center;
-  }
-
-  .home {
-    background-position: center top;
-  }
-}
-
-/* Mobil */
 @media (max-width: 520px) {
   .home {
     min-height: 100vh;
@@ -176,37 +139,33 @@ body {
 
   .navbar {
     width: calc(100% - 28px);
-    margin-top: 14px;
-    padding: 14px;
+    margin-top: 10px;
+    padding: 10px 12px;
+    border-radius: 24px;
+    background: rgba(8, 8, 8, 0.16);
+    border: 1px solid rgba(230, 194, 159, 0.10);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    gap: 8px;
   }
 
   .brand {
-    font-size: 14px;
-    letter-spacing: 3px;
+    font-size: 13px;
+    letter-spacing: 4px;
   }
 
   .navLinks {
-    gap: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    flex-wrap: nowrap;
   }
 
   .navLinks a {
     font-size: 11px;
-    padding: 8px 10px;
-    letter-spacing: 0.8px;
-  }
-
-  .heroMinimal {
-    padding: 0 20px 40px;
-  }
-
-  .heroTagline {
-    font-size: 11px;
-    letter-spacing: 3px;
-  }
-
-  .heroButton {
-    padding: 12px 24px;
-    font-size: 13px;
+    letter-spacing: 0.7px;
+    padding: 6px 7px;
   }
 
   .section {
