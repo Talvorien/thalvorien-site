@@ -86,39 +86,6 @@ body {
 }
 
 /* Ana görselin üstündeki minimal alan */
-.heroMinimal {
-  position: relative;
-  z-index: 2;
-  min-height: calc(100vh - 110px);
-  padding: 0 64px 64px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
-
-.heroTagline {
-  margin: 0 0 18px;
-  color: #e6c29f;
-  font-size: 13px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.8);
-}
-
-.heroButton {
-  display: inline-block;
-  padding: 14px 30px;
-  border: 1px solid rgba(230, 194, 159, 0.72);
-  border-radius: 999px;
-  color: #f8e8d8;
-  text-decoration: none;
-  letter-spacing: 1.2px;
-  font-size: 14px;
-  background: rgba(8, 8, 8, 0.34);
-  backdrop-filter: blur(12px);
-  transition: background 0.2s ease, transform 0.2s ease;
-}
 
 .heroButton:hover {
   background: rgba(230, 194, 159, 0.18);
