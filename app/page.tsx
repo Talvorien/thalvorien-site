@@ -22,13 +22,7 @@ export default function Home() {
           </nav>
         </header>
 
-        <section className="heroMinimal">
-          <p className="heroTagline">Form · Strength · Light</p>
-
-          <a href="#contact" className="heroButton">
-            Business Inquiry
-          </a>
-        </section>
+        
       </main>
 
       <section id="about" className="section">
