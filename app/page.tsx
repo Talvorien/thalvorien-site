@@ -28,9 +28,8 @@ export default function Home() {
       <section id="about" className="section">
         <h2>About Thalvorien</h2>
         <p>
-          Thalvorien is a Türkiye-based brand focused on textile products,
-          lifestyle goods and selected gift items. The brand combines production
-          experience with a clean, elegant and timeless design approach.
+          Thalvorien is a textile and lifestyle brand shaped by strength, elegance
+  and a refined sense of form.
         </p>
       </section>
 
