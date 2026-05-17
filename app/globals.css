@@ -134,14 +134,14 @@ body {
   .home {
     min-height: 100vh;
     background-size: cover;
-    background-position: center top;
+    background-position: center 35px;
   }
 
   .navbar {
     width: calc(100% - 28px);
     margin-top: 10px;
-    padding: 10px 12px;
-    border-radius: 24px;
+    padding: 8px 10px;
+    border-radius: 20px;
     background: rgba(8, 8, 8, 0.16);
     border: 1px solid rgba(230, 194, 159, 0.10);
     backdrop-filter: blur(8px);
