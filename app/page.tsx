@@ -1,16 +1,18 @@
 export default function Home() {
   return (
     <>
-     <main
-  className="home"
-  style={{
-    backgroundImage: "url('/thalvorien-bg.png')",
-  }}
->
+      <main
+        className="home"
+        style={{
+          backgroundImage: "url('/thalvorien-bg.png')",
+        }}
+      >
         <div className="backgroundOverlay"></div>
 
         <header className="navbar">
-          <div className="brand">THALVORIEN</div>
+          <a href="#" className="brand">
+            THALVORIEN
+          </a>
 
           <nav className="navLinks">
             <a href="#about">About</a>
@@ -20,13 +22,9 @@ export default function Home() {
           </nav>
         </header>
 
-        <section className="heroPanel">
-          <p className="eyebrow">Form · Strength · Light</p>
-          <h1>Textile & Gift Goods Brand</h1>
-          <p className="heroText">
-            A Türkiye-based brand shaped around refined textile products,
-            lifestyle goods and curated gift items.
-          </p>
+        <section className="heroMinimal">
+          <p className="heroTagline">Form · Strength · Light</p>
+
           <a href="#contact" className="heroButton">
             Business Inquiry
           </a>
@@ -61,7 +59,7 @@ export default function Home() {
       <section id="contact" className="section">
         <h2>Contact</h2>
         <p>For business, wholesale or collaboration inquiries:</p>
-        <p>info@thalvorien.com</p>
+        <p className="emailText">info@thalvorien.com</p>
       </section>
     </>
   );
