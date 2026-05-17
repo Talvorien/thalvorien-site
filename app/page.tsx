@@ -16,7 +16,7 @@ export default function Home() {
 
         <nav className="navLinks">
   <a href="#about">Brand</a>
-  <a href="#collection">Products</a>
+  <a href="/products">Products</a>
   <a href="#message">Vision</a>
   <a href="#contact">Contact</a>
 </nav>
