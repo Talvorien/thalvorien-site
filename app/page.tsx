@@ -14,12 +14,12 @@ export default function Home() {
             THALVORIEN
           </a>
 
-          <nav className="navLinks">
-            <a href="#about">About</a>
-            <a href="#collection">Collection</a>
-            <a href="#message">Message</a>
-            <a href="#contact">Contact</a>
-          </nav>
+        <nav className="navLinks">
+  <a href="#about">Brand</a>
+  <a href="#collection">Products</a>
+  <a href="#message">Vision</a>
+  <a href="#contact">Contact</a>
+</nav>
         </header>
 
         
