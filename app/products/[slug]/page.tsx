@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { allProducts } from "../productData";
-
+import ProductGallery from "./ProductGallery";
 export function generateStaticParams() {
   return allProducts.map((product) => ({
     slug: product.slug,
@@ -34,13 +34,7 @@ export default async function ProductDetailPage({
       </header>
 
       <section className="productDetailLayout">
-        <div className="productDetailGallery">
-          {product.images.map((image, index) => (
-            <div className="productDetailImage" key={image}>
-              <img src={image} alt={`${product.name} view ${index + 1}`} />
-            </div>
-          ))}
-        </div>
+       <ProductGallery images={product.images} productName={product.name} />
 
         <aside className="productDetailInfo">
           <p className="productCategory">{product.category}</p>
