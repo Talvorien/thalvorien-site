@@ -1,11 +1,13 @@
 export default function Home() {
   return (
     <>
-      <main
-        className="home"
-        style={{
-          backgroundImage: "url('/thalvorien-bg.png')",
-        }}
+     <main
+  className="home"
+  style={{
+    backgroundImage: "url('/thalvorien-bg.png')",
+    minHeight: "100vh",
+  }}
+>
       >
         <div className="backgroundOverlay"></div>
 
