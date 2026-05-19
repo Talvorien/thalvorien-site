@@ -1145,14 +1145,14 @@ body {
     background-repeat: no-repeat;
   }
 }
-/* Force desktop homepage hero height */
+/* Homepage full artwork display */
 @media (min-width: 900px) {
   .home {
-    min-height: 100vh !important;
-    height: 100vh !important;
-    background-size: cover !important;
-    background-position: center 38px !important;
+    min-height: calc(100vw * 1.03 + 90px) !important;
+    height: auto !important;
+    background-size: 100% auto !important;
+    background-position: center 90px !important;
     background-repeat: no-repeat !important;
-    display: block !important;
+    background-color: #050505 !important;
   }
 }
