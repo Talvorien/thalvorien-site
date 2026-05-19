@@ -1145,3 +1145,14 @@ body {
     background-repeat: no-repeat;
   }
 }
+/* Force desktop homepage hero height */
+@media (min-width: 900px) {
+  .home {
+    min-height: 100vh !important;
+    height: 100vh !important;
+    background-size: cover !important;
+    background-position: center 38px !important;
+    background-repeat: no-repeat !important;
+    display: block !important;
+  }
+}
