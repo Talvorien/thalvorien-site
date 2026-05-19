@@ -1156,3 +1156,207 @@ body {
     background-color: #050505 !important;
   }
 }
+/* Size Guide Page */
+.sizeGuidePage {
+  min-height: 100vh;
+  background: #0b0b0b;
+  color: #f5eee7;
+  padding-bottom: 90px;
+}
+
+.sizeGuideHeader {
+  width: calc(100% - 96px);
+  margin: 28px auto 0;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(230, 194, 159, 0.14);
+  border-radius: 999px;
+  background: rgba(8, 8, 8, 0.42);
+  backdrop-filter: blur(12px);
+}
+
+.sizeGuideHero {
+  max-width: 860px;
+  margin: 86px auto 56px;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.sizeGuideHero h1 {
+  margin: 0 0 18px;
+  font-size: clamp(44px, 7vw, 82px);
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.sizeGuideHero p {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #d8c7b8;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.sizeGuideContent {
+  width: min(1180px, calc(100% - 64px));
+  margin: 0 auto;
+}
+
+.sizeTableBlock,
+.specialSizeBlock {
+  margin-bottom: 56px;
+}
+
+.sizeTableBlock h2,
+.specialSizeBlock h2 {
+  margin: 0 0 18px;
+  color: #f4e7dc;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.sizeTableScroll {
+  overflow-x: auto;
+  border: 1px solid rgba(230, 194, 159, 0.16);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.sizeTable {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  color: #f5eee7;
+}
+
+.sizeTable th,
+.sizeTable td {
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(230, 194, 159, 0.12);
+  border-right: 1px solid rgba(230, 194, 159, 0.10);
+  text-align: center;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.sizeTable thead th {
+  background: rgba(230, 194, 159, 0.16);
+  color: #f4e7dc;
+  font-weight: 500;
+}
+
+.sizeTable tbody th {
+  color: #e6b38e;
+  font-weight: 500;
+  text-align: left;
+}
+
+.sizeTable tr:last-child th,
+.sizeTable tr:last-child td {
+  border-bottom: none;
+}
+
+.sizeTable th:last-child,
+.sizeTable td:last-child {
+  border-right: none;
+}
+
+/* Size Guide Link */
+.sizeGuideLink {
+  display: inline-block;
+  margin-top: 22px;
+  color: #e6b38e;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(230, 179, 142, 0.55);
+  padding-bottom: 4px;
+  letter-spacing: 0.8px;
+  font-size: 14px;
+}
+
+.sizeGuideLink:hover {
+  color: #f4d2b8;
+}
+
+/* Product detail size guide box */
+.productSizeGuideBox {
+  display: block;
+  margin-top: 26px;
+  padding: 18px 20px;
+  border: 1px solid rgba(230, 194, 159, 0.22);
+  border-radius: 18px;
+  background: rgba(230, 194, 159, 0.07);
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.productSizeGuideBox:hover {
+  background: rgba(230, 194, 159, 0.12);
+  border-color: rgba(230, 194, 159, 0.36);
+}
+
+.productSizeGuideBox span {
+  display: block;
+  color: #e6b38e;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.productSizeGuideBox strong {
+  display: block;
+  color: #f4e7dc;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (max-width: 620px) {
+  .sizeGuideHeader {
+    width: calc(100% - 28px);
+    margin: 14px auto 0;
+    padding: 12px 14px;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 24px;
+  }
+
+  .sizeGuideHero {
+    margin: 54px auto 38px;
+    padding: 0 18px;
+  }
+
+  .sizeGuideHero h1 {
+    font-size: 44px;
+  }
+
+  .sizeGuideHero p {
+    font-size: 15px;
+  }
+
+  .sizeGuideContent {
+    width: calc(100% - 24px);
+  }
+
+  .sizeTableBlock,
+  .specialSizeBlock {
+    margin-bottom: 44px;
+  }
+
+  .sizeTableBlock h2,
+  .specialSizeBlock h2 {
+    font-size: 25px;
+  }
+
+  .sizeTable {
+    min-width: 680px;
+  }
+
+  .sizeTable th,
+  .sizeTable td {
+    padding: 12px 13px;
+    font-size: 13px;
+  }
+}
