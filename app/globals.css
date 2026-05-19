@@ -1136,3 +1136,12 @@ body {
     white-space: nowrap;
   }
 }
+/* Desktop homepage hero fix */
+@media (min-width: 621px) {
+  .home {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center 38px;
+    background-repeat: no-repeat;
+  }
+}
